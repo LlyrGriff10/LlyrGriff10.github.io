@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Welsh-India (Exports)",
+    "subtitle": ["", "Source: DBT"]},
+
+  "width": 400,
+  "height": 300,
+ 
+  "data": {"url": "https://raw.githubusercontent.com/LlyrGriff10/LlyrGriff10.github.io/main/Welsh-India%20Export%20Data%202.csv"},
+ 
+   "mark": {
+    "type": "line",
+    "color": "orange"},
+ 
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title":null},
+    "y": {"field": "value", "type": "quantitative", "title":null},
+   
+  }
+}
